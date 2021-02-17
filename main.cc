@@ -7,7 +7,7 @@
 #include <signal.h>
 
 void ctrl_c_handle(sig_atomic_t sig){
-    printf("Got signal 2. Exiting...\n", sig);
+    printf("Got signal %d. Exiting...\n", sig);
     exit(1);
 
 }
